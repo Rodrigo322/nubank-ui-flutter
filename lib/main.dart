@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/Home/home_page.dart';
+import 'modules/Details/details_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Nubank UI',
-      home: HomePage(),
+      home: DetailsPage(),
     );
   }
 }
